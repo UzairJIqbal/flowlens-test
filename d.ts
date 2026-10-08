@@ -1,1 +1,2 @@
-export const d = () => 2;
+import { c } from "./c";
+export const d = () => c() + 2;
